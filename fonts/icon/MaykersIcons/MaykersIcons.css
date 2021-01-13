@@ -1,0 +1,360 @@
+﻿/* ICON SIZES: KEEP THIS! */
+.m-icon-font-size-12px {
+    font-size: 12px;
+}
+.m-icon-font-size-14px {
+    font-size: 14px;
+}
+.m-icon-font-size-16px {
+    font-size: 16px;
+}
+.m-icon-font-size-18px {
+    font-size: 18px;
+}
+.m-icon-font-size-21px {
+    font-size: 21px;
+}
+.m-icon-font-size-24px {
+    font-size: 24px;
+}
+.m-icon-font-size-28px {
+    font-size: 28px;
+}
+.m-icon-font-size-32px {
+    font-size: 32px;
+}
+.m-icon-font-size-48px {
+    font-size: 48px;
+}
+.m-icon-font-size-64px {
+    font-size: 64px;
+}
+.m-icon-font-size-96px {
+    font-size: 96px;
+}
+
+/* 
+    REPLACE BELOW THE CSS GENERATE WITH THE STYLE 
+    FONT VERSION: 2.5
+    DATE: 2020-12-15
+
+*/ 
+
+@font-face {
+  font-family: 'MaykersIcons';
+  src:  url('/Maykers_Resources/fonts/MaykersIcons.eot?6sladv');
+  src:  url('/Maykers_Resources/fonts/MaykersIcons.eot?6sladv#iefix') format('embedded-opentype'),
+    url('/Maykers_Resources/fonts/MaykersIcons.ttf?6sladv') format('truetype'),
+    url('/Maykers_Resources/fonts/MaykersIcons.woff?6sladv') format('woff'),
+    url('/Maykers_Resources/fonts/MaykersIcons.svg?6sladv#MaykersIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="m-icon-"], [class*=" m-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MaykersIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.m-icon-MakeModel-16:before {
+  content: "\e960";
+}
+.m-icon-ChatTag-16:before {
+  content: "\e95c";
+}
+.m-icon-Fast-Delivery-16:before {
+  content: "\e95d";
+}
+.m-icon-Location-16:before {
+  content: "\e956";
+}
+.m-icon-Archive-16:before {
+  content: "\e94a";
+}
+.m-icon-Goat-16:before {
+  content: "\e94b";
+}
+.m-icon-Horse-16:before {
+  content: "\e94c";
+}
+.m-icon-Lock-16:before {
+  content: "\e94d";
+}
+.m-icon-Sheep-16:before {
+  content: "\e94e";
+}
+.m-icon-Exclamation-16:before {
+  content: "\e949";
+}
+.m-icon-Sunrise-16:before {
+  content: "\e945";
+}
+.m-icon-Broiler-16:before {
+  content: "\e944";
+}
+.m-icon-Cow-16:before {
+  content: "\e93d";
+}
+.m-icon-Crop-16:before {
+  content: "\e93e";
+}
+.m-icon-Egg-16:before {
+  content: "\e93f";
+}
+.m-icon-Mink-16:before {
+  content: "\e940";
+}
+.m-icon-Pig-16:before {
+  content: "\e941";
+}
+.m-icon-Tractor-16:before {
+  content: "\e942";
+}
+.m-icon-Organic-16:before {
+  content: "\e939";
+}
+.m-icon-Hands-16:before {
+  content: "\e937";
+}
+.m-icon-Hands-Filled-16:before {
+  content: "\e938";
+}
+.m-icon-External-Link-16:before {
+  content: "\e924";
+}
+.m-icon-Shop-16:before {
+  content: "\e925";
+}
+.m-icon-Check-16:before {
+  content: "\e920";
+}
+.m-icon-Arrow-Left-16:before {
+  content: "\e921";
+}
+.m-icon-Arrow-Down-16:before {
+  content: "\e900";
+}
+.m-icon-Close-16:before {
+  content: "\e901";
+}
+.m-icon-Delete-16:before {
+  content: "\e902";
+}
+.m-icon-Info-16:before {
+  content: "\e903";
+}
+.m-icon-Min-16:before {
+  content: "\e904";
+}
+.m-icon-Plus-16:before {
+  content: "\e905";
+}
+.m-icon-Refresh-16:before {
+  content: "\e906";
+}
+.m-icon-Search-16:before {
+  content: "\e907";
+}
+.m-icon-Star-empty-16:before {
+  content: "\e908";
+}
+.m-icon-Start-Filled-16:before {
+  content: "\e909";
+}
+.m-icon-Zoom-in-16:before {
+  content: "\e90a";
+}
+.m-icon-Zoom-out-16:before {
+  content: "\e90b";
+}
+.m-icon-Arrow-Right-16:before {
+  content: "\e90c";
+}
+.m-icon-MakeModel-24:before {
+  content: "\e95f";
+}
+.m-icon-Fast-Delivery-24:before {
+  content: "\e95e";
+}
+.m-icon-Calendar-24:before {
+  content: "\e95b";
+}
+.m-icon-Heart-Empty-24:before {
+  content: "\e959";
+}
+.m-icon-Heart-Filled-24:before {
+  content: "\e95a";
+}
+.m-icon-Creditcard-24:before {
+  content: "\e957";
+}
+.m-icon-List-24:before {
+  content: "\e958";
+}
+.m-icon-Car-24:before {
+  content: "\e94f";
+}
+.m-icon-Check-24:before {
+  content: "\e950";
+}
+.m-icon-Exclamation-24:before {
+  content: "\e951";
+}
+.m-icon-Lock-24:before {
+  content: "\e952";
+}
+.m-icon-See-24:before {
+  content: "\e953";
+}
+.m-icon-Unsee-24:before {
+  content: "\e954";
+}
+.m-icon-ChatTag-24:before {
+  content: "\e955";
+}
+.m-icon-UnMute-24:before {
+  content: "\e948";
+}
+.m-icon-Download-24:before {
+  content: "\e946";
+}
+.m-icon-Mute-24:before {
+  content: "\e947";
+}
+.m-icon-Tractor-24:before {
+  content: "\e943";
+}
+.m-icon-Hands-24:before {
+  content: "\e93a";
+}
+.m-icon-Hands-Filled-24:before {
+  content: "\e93b";
+}
+.m-icon-Organic-24:before {
+  content: "\e93c";
+}
+.m-icon-Arrow-Up-24:before {
+  content: "\e934";
+}
+.m-icon-Filter-24:before {
+  content: "\e935";
+}
+.m-icon-User-24:before {
+  content: "\e936";
+}
+.m-icon-AltCart-24:before {
+  content: "\e917";
+}
+.m-icon-Menu-24:before {
+  content: "\e931";
+}
+.m-icon-ChatForward-24:before {
+  content: "\e932";
+}
+.m-icon-ChatSettings-24:before {
+  content: "\e933";
+}
+.m-icon-Arrow-Down-24:before {
+  content: "\e92a";
+}
+.m-icon-Close-24:before {
+  content: "\e92b";
+}
+.m-icon-Info-24:before {
+  content: "\e92c";
+}
+.m-icon-Play-24:before {
+  content: "\e92d";
+}
+.m-icon-Sunrise-24:before {
+  content: "\e92e";
+}
+.m-icon-Arrow-Left-24:before {
+  content: "\e92f";
+}
+.m-icon-Arrow-Right-24:before {
+  content: "\e930";
+}
+.m-icon-File-24:before {
+  content: "\e912";
+}
+.m-icon-Location-24:before {
+  content: "\e913";
+}
+.m-icon-Mail-24:before {
+  content: "\e91d";
+}
+.m-icon-Phone-24:before {
+  content: "\e926";
+}
+.m-icon-Upload-24:before {
+  content: "\e928";
+}
+.m-icon-Web-24:before {
+  content: "\e929";
+}
+.m-icon-Cart-24:before {
+  content: "\e90d";
+}
+.m-icon-Pickup-24:before {
+  content: "\e927";
+}
+.m-icon-Image-24:before {
+  content: "\e922";
+}
+.m-icon-Shop-24:before {
+  content: "\e923";
+}
+.m-icon-Chat-24:before {
+  content: "\e90e";
+}
+.m-icon-Delete-24:before {
+  content: "\e90f";
+}
+.m-icon-Delivery-24:before {
+  content: "\e910";
+}
+.m-icon-Dot-menu-24:before {
+  content: "\e911";
+}
+.m-icon-Min-24:before {
+  content: "\e914";
+}
+.m-icon-Notification-24:before {
+  content: "\e915";
+}
+.m-icon-Online-24:before {
+  content: "\e916";
+}
+.m-icon-Plus-24:before {
+  content: "\e918";
+}
+.m-icon-Refresh-24:before {
+  content: "\e919";
+}
+.m-icon-Search-24:before {
+  content: "\e91a";
+}
+.m-icon-Star-Empty-24:before {
+  content: "\e91b";
+}
+.m-icon-Star-Filled-24:before {
+  content: "\e91c";
+}
+.m-icon-Zoom-in-24:before {
+  content: "\e91e";
+}
+.m-icon-Zoom-out-24:before {
+  content: "\e91f";
+}

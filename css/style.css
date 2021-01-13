@@ -1,13 +1,13 @@
 /* CSS Document */
 
-/* 
+/*
     Created on   : 24/09/2017.
     Theme Name   : Gullu.
     Description  : Gullu - Agency & Startup HTML Template
     Version      : 1.1.
     Author       : @CreativeGigs.
     Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
+
 */
 
 /* ------------------------------------------ */
@@ -81,7 +81,7 @@
 /*--------- Jquery ui ---------*/
 @import url("../vendor/jquery-ui/jquery-ui.min.css");
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -240,7 +240,7 @@ h2,
 h3,
 h4,
 h6 {
-  color: #2d2d43;
+  color: #000000;
 }
 h1 {
   font-size: 60px;
@@ -429,23 +429,13 @@ header.theme-menu-wrapper.menu-style-two
 .theme-title h6 {
   font-weight: 600;
   font-size: 16px;
-  color: rgba(0, 0, 10, 0.45);
+  color: #1D8CEF;
   display: inline-block;
   position: relative;
   text-transform: uppercase;
   z-index: 1;
 }
-.theme-title h6:before {
-  content: "";
-  width: 100%;
-  height: 5px;
-  position: absolute;
-  background: #1d8cef;
-  border-radius: 2.5px;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
+
 .theme-title h2 {
   line-height: 55px;
   margin-top: 20px;
@@ -490,6 +480,7 @@ header.theme-menu-wrapper {
 header.theme-menu-wrapper.full-width-menu {
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 10px;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav > li > a {
   padding: 0 0 20px 0;
@@ -498,17 +489,17 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav > li > a {
   z-index: 9;
 }
 header .header-image {
-  width: 80%;
+  width: 60%;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav > li > a:before,
 #mega-menu-wrapper .nav > li.dropdown-holder .sub-menu li a:before {
   content: "";
   width: 0;
-  height: 5px;
+  height: 3px;
   opacity: 0;
+  margin-top: 8px;
   position: absolute;
   background: #1d8cef;
-  border-radius: 2.5px;
   left: 0;
   z-index: -1;
 }
@@ -532,16 +523,15 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav > li:hover > a:before,
   width: 100%;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a {
-  width: 110px;
   line-height: 36px;
   font-weight: 600;
   font-size: 15px;
-  padding: 0;
+  letter-spacing: 0.3px;
+  padding: 0px 16px;
   text-align: center;
   color: #00000a;
-  text-transform: uppercase;
   border: 2px solid rgba(0, 0, 10, 0.08);
-  border-radius: 5px;
+  border-radius: 20px;
   margin: -7px 0 0 30px;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:before {
@@ -766,7 +756,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
   margin-bottom: 90px;
   padding-top: 300px;
   height: 900px;
-  background-image: url("../images/home/background_7.png");
+  background-image: url("../images/home/background_8@2x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -851,8 +841,8 @@ header.theme-menu-wrapper.menu-style-three.fixed
 }
 .banner-one h1 {
   text-transform: capitalize;
-  line-height: 60px;
-  margin: 25px 0 55px 0;
+  line-height: 50px;
+  margin: 25px 0 75px 0;
 }
 .first-text-part {
   font-weight: 100;
@@ -885,6 +875,10 @@ header.theme-menu-wrapper.menu-style-three.fixed
   text-transform: capitalize;
   text-align: center;
   border-radius: 28px;
+  letter-spacing: 0.3px;
+}
+.container a.button-one:hover {
+  background-color: #1A7ED7;
 }
 .banner-one .image-shape-one {
   display: inline-block;
@@ -935,28 +929,28 @@ header.theme-menu-wrapper.menu-style-three.fixed
 }
 .what-we-do .single-block .icon.color-one {
   /* color: #00d747; */
-  background-image: url("../images/icons/ant_black.png");
+  background-image: url("../images/icons/Fast-Delivery.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px;
 }
 .what-we-do .single-block .icon.color-two {
-  background-image: url("../images/icons/cameleon_black.png");
+  background-image: url("../images/icons/Goat.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70px;
+  background-size: 50px;
 }
 .what-we-do .single-block .icon.color-three {
-  background-image: url("../images/icons/dog_black.png");
+  background-image: url("../images/icons/Sunrise.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70px;
+  background-size: 50px;
 }
 .what-we-do .single-block .icon.color-four {
-  background-image: url("../images/icons/bee_black.png");
+  background-image: url("../images/icons/Hands.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70px;
+  background-size: 50px;
 }
 .what-we-do .single-block h6 {
   color: rgba(37, 47, 62, 0.5);
@@ -964,7 +958,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
   margin: 30px 0 20px 0;
 }
 .what-we-do .single-block h5 a {
-  color: #2d2d43;
+  color: #000000;
   font-size: 20px;
   line-height: 30px;
 }
@@ -1142,6 +1136,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
 .testimonial-section .main-container .item .wrapper .name {
   padding-left: 70px;
   position: relative;
+  margin-bottom: 3px;
 }
 .testimonial-section .main-container .item .wrapper .name img {
   width: 50px;
@@ -1194,13 +1189,10 @@ header.theme-menu-wrapper.menu-style-three.fixed
 }
 /*----------------------- Footer ---------------------*/
 footer.bg-one {
-  background: url(../images/home/footer.png) no-repeat center center;
-  background-size: cover;
+
 }
 footer.bg-two {
-  background: url(../images/home/footer2.jpg) no-repeat center center;
-  background-size: cover;
-  padding-top: 150px;
+
 }
 
 footer {
@@ -1211,6 +1203,9 @@ footer .footer-logo h5 a {
   font-size: 16px;
   color: #222222;
   margin: 30px 0 15px 0;
+}
+.footer-logo a img{
+  width: 80%;
 }
 footer h4 {
   font-size: 20px;
@@ -1562,10 +1557,10 @@ footer .bottom-footer {
   background-attachment: fixed;
   position: relative;
   margin-bottom: 190px;
+  background-color: #1D8CEF;
 }
 .inner-page-banner .opacity {
   text-align: center;
-  background: #1e8cef85;
   padding: 220px 0 175px 0;
 }
 .inner-page-banner .opacity h1 {
@@ -1578,7 +1573,7 @@ footer .bottom-footer {
   font-size: 18px;
   margin: 40px 2px 0 2px;
   text-transform: uppercase;
-  color: #929292;
+;
   letter-spacing: 1.1px;
 }
 .inner-page-banner .opacity ul li a {
@@ -1664,7 +1659,6 @@ footer .bottom-footer {
   color: #fff;
 }
 .our-team-styleOne .single-team-member {
-  border-bottom: 1px solid rgba(108, 108, 108, 0.1);
   padding-bottom: 25px;
   margin-bottom: 90px;
   text-align: center;
@@ -1685,9 +1679,7 @@ footer .bottom-footer {
   top: 0;
   right: 0;
   opacity: 0;
-  background: rgba(255, 255, 255, 0.95);
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
+  background: rgba(0, 0, 0, 0.8 );
 }
 .our-team-styleOne .single-team-member .image .opacity ul li {
   display: inline-block;
@@ -1708,8 +1700,6 @@ footer .bottom-footer {
 }
 .our-team-styleOne .single-team-member:hover .image .opacity {
   opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
 }
 .our-team-styleOne .single-team-member:hover .image img {
   -webkit-transform: scale3D(1.1, 1.1, 1);
@@ -2078,7 +2068,7 @@ footer .bottom-footer {
 .portfolio-details .title ul li {
   display: inline-block;
   font-size: 18px;
-  color: #2d2d43;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 600;
 }
