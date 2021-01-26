@@ -439,6 +439,7 @@ header.theme-menu-wrapper.menu-style-two
 .theme-title h2 {
   line-height: 55px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .theme-title-two h6 {
   font-weight: 500;
@@ -1075,7 +1076,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
   z-index: -1;
 }
 /*------------------------ Theme Counter --------------------*/
-/* .theme-counter {
+.theme-counter {
   text-align: center;
   padding: 130px 0 50px 0;
 }
@@ -1090,7 +1091,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
   font-size: 20px;
   color: #aeaeae;
   margin: 5px 0 40px 0;
-} */
+}
 /*------------------- Two Section Wrapper -----------------*/
 /* .two-section-wrapper {
   background: url(../images/home/background_simple.png) no-repeat center;
@@ -3102,4 +3103,7 @@ footer .bottom-footer {
 }
 .related-product-slider .item .single-product {
   margin-bottom: 40px;
+}
+a .eapps-link {
+  display: none !important;
 }

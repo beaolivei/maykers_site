@@ -215,6 +215,9 @@
   .more-about-us {
     margin-bottom: 0;
   }
+  .our-portfolio .theme-title {
+    padding-bottom: 50px;
+  }
   .our-portfolio .theme-title a {
     position: relative;
     margin-top: 20px;
