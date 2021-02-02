@@ -1553,7 +1553,7 @@ footer .bottom-footer {
 /*----------------------- End Hone Three Version -------------------*/
 /*------------------ Theme Inner Banner -----------------*/
 .inner-page-banner {
-  background: url(../images/home/background_7.png) no-repeat center;
+  background: url(../images/team/fields-barley.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -3106,4 +3106,33 @@ footer .bottom-footer {
 }
 a .eapps-link {
   display: none !important;
+}
+/*----------------------- Vacancies Page  ----------------------*/
+.inner-vacancies-page-banner {
+  background: url(../images/vacancies/field-image.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 190px;
+  background-color: #1D8CEF;
+}
+.inner-vacancies-page-banner .opacity {
+  text-align: center;
+  padding: 220px 0 175px 0;
+}
+.inner-vacancies-page-banner .opacity h1 {
+  color: #fff;
+  text-transform: capitalize;
+}
+.inner-vacancies-page-banner .opacity ul li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px 2px 0 2px;
+  text-transform: uppercase;
+;
+  letter-spacing: 1.1px;
+}
+.inner-vacancies-page-banner .opacity ul li a {
+  color: #fff;
 }
