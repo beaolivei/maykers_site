@@ -1632,6 +1632,10 @@ footer .bottom-footer {
   margin-bottom: 30px;
 }
 /*-------------------- Our Team Style One ----------------------*/
+.team-photo{
+  height: 450px;
+  width: 350px !important;
+}
 .our-team-styleOne.inner-page {
   padding-bottom: 80px;
 }
@@ -3136,3 +3140,4 @@ a .eapps-link {
 .inner-vacancies-page-banner .opacity ul li a {
   color: #fff;
 }
+
