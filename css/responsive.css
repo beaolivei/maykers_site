@@ -29,11 +29,19 @@
   .more-about-us .image-box,
   .home-service-section img,
   .testimonial-section .image-box {
-    left: -20%;
+    left: -10%;
   }
   .more-about-us .theme-shape-three,
   .testimonial-section .theme-shape-four {
     left: -25%;
+  }
+}
+
+@media(min-width: 2600px) {
+  .more-about-us .image-box,
+  .home-service-section img,
+  .testimonial-section .image-box {
+    left: 20%
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {

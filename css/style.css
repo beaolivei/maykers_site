@@ -1059,7 +1059,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
 .more-about-us .image-box {
   position: absolute;
   top: 90px;
-  left: -85px;
+  left: 6%;
   z-index: 1;
 }
 .more-about-us .image-box .image-shape {
@@ -1172,7 +1172,7 @@ header.theme-menu-wrapper.menu-style-three.fixed
 .testimonial-section .image-box {
   position: absolute;
   top: 130px;
-  left: -85px;
+  left: 6%;
   z-index: 1;
 }
 .testimonial-section .image-box .image-shape {
