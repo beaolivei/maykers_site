@@ -394,6 +394,7 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 80px;
+    padding: 15px;
   }
   .what-we-do .single-block .icon.middle-block:before,
   .what-we-do .single-block .icon.middle-block:after {
@@ -559,7 +560,7 @@
 }
 
 @media (max-width: 600px) {
-  .our-team-styleOne.style-two .col-xs-6 {
+  .our-team-styleOne.style-two .col-xs-12 {
     width: 100%;
   }
 }
@@ -665,7 +666,7 @@
   .menu-style-three .top-header p a {
     margin-right: 0;
   }
-  .portfolio-grid .col-xs-6 {
+  .portfolio-grid .col-xs-12 {
     width: 100%;
   }
 }

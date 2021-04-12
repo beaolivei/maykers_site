@@ -1,5 +1,5 @@
 let teamMate = item => 
-`<div class="col-md-4 col-xs-6">
+`<div class="col-md-4 col-xs-12">
     <div class="single-team-member">
         <div class="image">
             <img class="team-photo" src=${item.photo} alt="a portrait from our employee, ${item.name}" />
@@ -21,7 +21,6 @@ let teamMate = item =>
 const myData = async() => {
     const response = await fetch ('https://sheetdb.io/api/v1/q9yv0j1u4w83b');
     const JSON = await response.json();
-    console.log(JSON)
     document.querySelector("#team-members")
 	.innerHTML = JSON.map(item => teamMate(item)).join('');
 }
@@ -29,3 +28,9 @@ const myData = async() => {
   window.addEventListener("load", function(event) {
    myData()
   })
+
+const myInstagramPhotos = async() => {
+    const response = await fetch('https://www.instagram.com/makersofmaykers/?__a=1');
+    const JSON = await response.json();
+    console.log(JSON)
+}
