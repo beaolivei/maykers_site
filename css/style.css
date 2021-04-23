@@ -48,7 +48,7 @@
 /** Mayker's font**/
 @import url("../fonts/fenomen-sans/stylesheet.css");
 /*----bootstrap css ----- */
-@import url("../vendor/bootstrap/bootstrap.css");
+@import url("../vendor/bootstrap/bootstrap.min.css");
 /*----bootstrap Select ----- */
 @import url("../vendor/bootstrap-select/dist/css/bootstrap-select.css");
 /*----camera-slider---*/
